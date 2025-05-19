@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>¿Cuál de estos instrumentos pertenece a la familia de cuerda?</wording>
+    <choices>
+      <choice correct="yes">Violín</choice>
+      <choice>Piano</choice>
+      <choice>Flauta</choice>
+      <choice>Trombón</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Qué instrumento tiene teclas y cuerdas en su interior?</wording>
+    <choices>
+      <choice>Pandereta</choice>
+      <choice>Guitarra</choice>
+      <choice correct="yes">Piano</choice>
+      <choice>Oboe</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>¿Qué instrumento de cuerda se toca con un arco?</wording>
+    <choices>
+      <choice>Guitarra</choice>
+      <choice>Arpa</choice>
+      <choice correct="yes">Violonchelo</choice>
+      <choice>Ukelele</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>¿Cuál es un instrumento de percusión?</wording>
+    <choices>
+      <choice>Flauta</choice>
+      <choice correct="yes">Batería</choice>
+      <choice>Viola</choice>
+      <choice>Clarinete</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Qué instrumento es de viento madera?</wording>
+    <choices>
+      <choice>Trompeta</choice>
+      <choice>Corno</choice>
+      <choice correct="yes">Flauta travesera</choice>
+      <choice>Tuba</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>¿Cuál es el instrumento más grave de la familia de cuerda?</wording>
+    <choices>
+      <choice>Viola</choice>
+      <choice>Violín</choice>
+      <choice>Violonchelo</choice>
+      <choice correct="yes">Contrabajo</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>¿Qué instrumento pertenece a la familia de viento metal?</wording>
+    <choices>
+      <choice>Clarinete</choice>
+      <choice>Fagot</choice>
+      <choice correct="yes">Trombón</choice>
+      <choice>Oboe</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>¿Qué parte se pulsa en una guitarra para cambiar las notas?</wording>
+    <choices>
+      <choice>Cuerpo</choice>
+      <choice>Roseta</choice>
+      <choice correct="yes">Trastes</choice>
+      <choice>Puente</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>¿Qué instrumento tiene forma triangular y se golpea?</wording>
+    <choices>
+      <choice>Pandereta</choice>
+      <choice>Maracas</choice>
+      <choice correct="yes">Triángulo</choice>
+      <choice>Cencerro</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>¿Qué familia de instrumentos produce el sonido al hacer vibrar una columna de aire?</wording>
+    <choices>
+      <choice correct="yes">Viento</choice>
+      <choice>Percusión</choice>
+      <choice>Cuerda</choice>
+      <choice>Electrónicos</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>¿Qué instrumento tiene pedales y muchas cuerdas tensadas verticalmente?</wording>
+    <choices>
+      <choice>Laúd</choice>
+      <choice>Guitarra eléctrica</choice>
+      <choice correct="yes">Arpa</choice>
+      <choice>Mandolina</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>¿Qué instrumento de viento tiene una boquilla y se enrolla en espiral?</wording>
+    <choices>
+      <choice>Clarinete</choice>
+      <choice>Flauta</choice>
+      <choice correct="yes">Trompa</choice>
+      <choice>Oboe</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>¿Qué instrumento se suele afinar con un afinador electrónico y se pulsa con los dedos?</wording>
+    <choices>
+      <choice>Flauta</choice>
+      <choice correct="yes">Guitarra</choice>
+      <choice>Violín</choice>
+      <choice>Marimba</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>¿Qué instrumento tiene baquetas y láminas afinadas?</wording>
+    <choices>
+      <choice>Tambor</choice>
+      <choice correct="yes">Xilófono</choice>
+      <choice>Pandero</choice>
+      <choice>Bombo</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>¿Qué instrumento no pertenece a la orquesta clásica?</wording>
+    <choices>
+      <choice>Oboe</choice>
+      <choice>Flauta</choice>
+      <choice correct="yes">Guitarra eléctrica</choice>
+      <choice>Timbal</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>¿Cuál es un instrumento de cuerda frotada?</wording>
+    <choices>
+      <choice>Piano</choice>
+      <choice correct="yes">Violín</choice>
+      <choice>Banjo</choice>
+      <choice>Guitarra</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>¿Qué instrumento puede tener válvulas o pistones?</wording>
+    <choices>
+      <choice>Flauta dulce</choice>
+      <choice correct="yes">Trompeta</choice>
+      <choice>Saxofón</choice>
+      <choice>Gaita</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>¿Qué tipo de instrumento es el acordeón?</wording>
+    <choices>
+      <choice>Percusión</choice>
+      <choice>Cuerda</choice>
+      <choice correct="yes">Viento</choice>
+      <choice>Metal</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>¿Qué instrumento de viento suele tener una caña doble?</wording>
+    <choices>
+      <choice>Clarinete</choice>
+      <choice>Saxofón</choice>
+      <choice correct="yes">Oboe</choice>
+      <choice>Flauta</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>¿Cuál es el instrumento de teclado que se utiliza en música electrónica?</wording>
+    <choices>
+      <choice>Piano de cola</choice>
+      <choice>Clavicordio</choice>
+      <choice correct="yes">Sintetizador</choice>
+      <choice>Clavecín</choice>
+    </choices>
+  </question>
+</test>

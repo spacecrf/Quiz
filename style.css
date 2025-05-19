@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #c8d5ea, #ff0079);
+  color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffffdd;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+  padding: 30px;
+  max-width: 600px;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.settings {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.settings select {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.question-box {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.question-box p {
+  margin-bottom: 15px;
+}
+
+.question-box .choice {
+  display: block;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question-box .choice:hover {
+  background-color: #d0cce3;
+}
+
+.question-box .choice.correct {
+  background-color: #b2f2bb;
+}
+
+.question-box .choice.incorrect {
+  background-color: #ffa8a8;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff0079;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d60067;
+}
+
+@media (max-width: 500px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+}

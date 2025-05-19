@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>Which of these instruments belongs to the string family?</wording>
+    <choices>
+      <choice correct="yes">Violin</choice>
+      <choice>Piano</choice>
+      <choice>Flute</choice>
+      <choice>Trombone</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>Which instrument has keys and strings inside?</wording>
+    <choices>
+      <choice>Tambourine</choice>
+      <choice>Guitar</choice>
+      <choice correct="yes">Piano</choice>
+      <choice>Oboe</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>Which string instrument is played with a bow?</wording>
+    <choices>
+      <choice>Guitar</choice>
+      <choice>Harp</choice>
+      <choice correct="yes">Cello</choice>
+      <choice>Ukulele</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>Which is a percussion instrument?</wording>
+    <choices>
+      <choice>Flute</choice>
+      <choice correct="yes">Drums</choice>
+      <choice>Viola</choice>
+      <choice>Clarinet</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>Which instrument is a woodwind?</wording>
+    <choices>
+      <choice>Trumpet</choice>
+      <choice>Horn</choice>
+      <choice correct="yes">Flute</choice>
+      <choice>Tuba</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>Which is the lowest-sounding string instrument?</wording>
+    <choices>
+      <choice>Viola</choice>
+      <choice>Violin</choice>
+      <choice>Cello</choice>
+      <choice correct="yes">Double bass</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>Which instrument belongs to the brass family?</wording>
+    <choices>
+      <choice>Clarinet</choice>
+      <choice>Bassoon</choice>
+      <choice correct="yes">Trombone</choice>
+      <choice>Oboe</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>What part is pressed on a guitar to change notes?</wording>
+    <choices>
+      <choice>Body</choice>
+      <choice>Rosette</choice>
+      <choice correct="yes">Frets</choice>
+      <choice>Bridge</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>Which instrument is triangle-shaped and struck to play?</wording>
+    <choices>
+      <choice>Tambourine</choice>
+      <choice>Maracas</choice>
+      <choice correct="yes">Triangle</choice>
+      <choice>Cowbell</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Which family of instruments produces sound by vibrating a column of air?</wording>
+    <choices>
+      <choice correct="yes">Wind</choice>
+      <choice>Percussion</choice>
+      <choice>String</choice>
+      <choice>Electronic</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>Which instrument has pedals and many vertical strings?</wording>
+    <choices>
+      <choice>Lute</choice>
+      <choice>Electric guitar</choice>
+      <choice correct="yes">Harp</choice>
+      <choice>Mandolin</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>Which wind instrument has a mouthpiece and spiral shape?</wording>
+    <choices>
+      <choice>Clarinet</choice>
+      <choice>Flute</choice>
+      <choice correct="yes">French horn</choice>
+      <choice>Oboe</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>Which instrument is often tuned with an electronic tuner and played with fingers?</wording>
+    <choices>
+      <choice>Flute</choice>
+      <choice correct="yes">Guitar</choice>
+      <choice>Violin</choice>
+      <choice>Marimba</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>Which instrument has mallets and tuned bars?</wording>
+    <choices>
+      <choice>Drum</choice>
+      <choice correct="yes">Xylophone</choice>
+      <choice>Tambourine</choice>
+      <choice>Bass drum</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>Which instrument is not part of the classical orchestra?</wording>
+    <choices>
+      <choice>Oboe</choice>
+      <choice>Flute</choice>
+      <choice correct="yes">Electric guitar</choice>
+      <choice>Timpani</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>Which is a bowed string instrument?</wording>
+    <choices>
+      <choice>Piano</choice>
+      <choice correct="yes">Violin</choice>
+      <choice>Banjo</choice>
+      <choice>Guitar</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>Which instrument may have valves or pistons?</wording>
+    <choices>
+      <choice>Recorder</choice>
+      <choice correct="yes">Trumpet</choice>
+      <choice>Saxophone</choice>
+      <choice>Bagpipes</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>What type of instrument is the accordion?</wording>
+    <choices>
+      <choice>Percussion</choice>
+      <choice>String</choice>
+      <choice correct="yes">Wind</choice>
+      <choice>Brass</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>Which wind instrument usually uses a double reed?</wording>
+    <choices>
+      <choice>Clarinet</choice>
+      <choice>Saxophone</choice>
+      <choice correct="yes">Oboe</choice>
+      <choice>Flute</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>Which keyboard instrument is commonly used in electronic music?</wording>
+    <choices>
+      <choice>Grand piano</choice>
+      <choice>Clavichord</choice>
+      <choice correct="yes">Synthesizer</choice>
+      <choice>Harpsichord</choice>
+    </choices>
+  </question>
+</test>

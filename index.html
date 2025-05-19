@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ProyectoXML - Quiz Musical</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Quiz de Música</h1>
+
+    <div class="settings">
+      <label for="language">Idioma / Language:</label>
+      <select id="language" onchange="loadXML()">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+
+    <div id="question-box" class="question-box">
+      <p>Cargando preguntas...</p>
+    </div>
+
+    <div class="info">
+      <p id="timer">⏱️ Tiempo: <span id="time">0</span>s</p>
+      <p id="score">✅ Puntuación: <span id="points">0</span></p>
+    </div>
+
+    <div class="actions">
+      <button onclick="nextQuestion()">Siguiente / Next</button>
+    </div>
+  </div>
+
+  <script src="scrip.js"></script>
+</body>
+</html>
